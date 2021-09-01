@@ -5,7 +5,11 @@ There are two Ethereum Paper Wallets standalone HTML under [wallets/](wallets/):
 
 1. [wallets/ethaddress.org-SHA256-51c0c2e3a517c55d9ab79ebf260490308d536a21931430f8b5f143dd4ce64eec.zip](wallets/ethaddress.org-SHA256-51c0c2e3a517c55d9ab79ebf260490308d536a21931430f8b5f143dd4ce64eec.zip) - the good work at: https://github.com/ryepdx/ethaddress.org/pull/37
 
-2. [wallets/bip39-standalone-SHA256-2c09ab47dde66488fc1b115fbac107952c3519fa4ea8d2945605dc631a502b5d.html](wallets/bip39-standalone-SHA256-2c09ab47dde66488fc1b115fbac107952c3519fa4ea8d2945605dc631a502b5d.html) - the good work of @iancoleman at: https://github.com/iancoleman/bip39/releases/tag/0.5.3. The SHA-256in the HTML filename (i.e.: `2c09ab47dde66488fc1b115fbac107952c3519fa4ea8d2945605dc631a502b5d`) is different to the SHA-256 in Ian's release page (i.e.: `ea1884e523aede48e48806f165a614d272ea62dd411c05634c14e217d62032a7`) because I modified the HTML to enable printable view for the generated key pairs which include also the respective QR codes, inspired by https://github.com/pointbiz/bitaddress.org. The modifications are not the most elegant code, so please excuse me for that. Check git history to see what has changed for the bip39-standalone HTML
+2. [wallets/bip39-standalone-SHA256-2c09ab47dde66488fc1b115fbac107952c3519fa4ea8d2945605dc631a502b5d.html](wallets/bip39-standalone-SHA256-2c09ab47dde66488fc1b115fbac107952c3519fa4ea8d2945605dc631a502b5d.html) - the good work of [@iancoleman](https://github.com/iancoleman) at: https://github.com/iancoleman/bip39/releases/tag/0.5.3.
+
+   *Do note*: the SHA-256 in the aforementioned HTML filename (i.e.: `2c09ab47dde66488fc1b115fbac107952c3519fa4ea8d2945605dc631a502b5d`) is different to the SHA-256 in Ian's [release page](https://github.com/iancoleman/bip39/releases/tag/0.5.3) (i.e.: `ea1884e523aede48e48806f165a614d272ea62dd411c05634c14e217d62032a7`) because I [modified the HTML page](https://github.com/azagniotov/ethereum-paper-wallet/commit/f37c4912e28bac9856281096f81513234323040d) to enable printable view for the generated key pairs which include also the respective QR codes, inspired by https://github.com/pointbiz/bitaddress.org.
+
+   The modifications are not the most elegant code, so please excuse me for that. Check git history to see what has changed for the bip39-standalone HTML
 
 ## How to use
 
